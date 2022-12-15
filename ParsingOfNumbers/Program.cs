@@ -19,7 +19,7 @@ namespace ParsingOfNumbers
         }
         static async Task Main(string[] args)
         {
-            var unparsedText = "";
+            var unparsedText = "He paid twenty millions for three such cars";
 
             IParseService parseService = new ParseService();
             var program = new Program(parseService);
